@@ -1,0 +1,121 @@
+{
+   "announce": "http://bt1.archive.org:6969/announce",
+   "announce-list": [
+      [
+         "http://bt1.archive.org:6969/announce"
+      ],
+      [
+         "http://bt2.archive.org:6969/announce"
+      ]
+   ],
+   "comment": "This content hosted at the Internet Archive at https://archive.org/details/dra-cula.-eng.-mp-4.\nFiles may have changed, which prevents torrents from downloading correctly or completely; please check for an updated torrent at https://archive.org/download/dra-cula.-eng.-mp-4./dra-cula.-eng.-mp-4._archive.torrent\nNote: retrieval usually requires a client that supports webseeding (GetRight style).\nNote: many Internet Archive torrents contain a 'pad file' directory. This directory and the files within it may be erased once retrieval completes.\nNote: the file dra-cula.-eng.-mp-4._meta.xml contains metadata about this torrent's contents.",
+   "created by": "ia_make_torrent",
+   "creation date": 1713721882,
+   "info": {
+      "collections": [
+         "org.archive.dra-cula.-eng.-mp-4."
+      ],
+      "files": [
+         {
+            "crc32": "09a76e79",
+            "length": 2459673631,
+            "md5": "44e1515d164d9dad335888a1dc4b0dca",
+            "mtime": "1713723859",
+            "path": [
+               "DRÁCULA. ENG. MP4..ia.mp4"
+            ],
+            "sha1": "b8ea72c3bde8aec1b2f288e839f94d9959f8beb4"
+         },
+         {
+            "attr": "p",
+            "length": 285665,
+            "path": [
+               ".____padding_file",
+               "6"
+            ]
+         },
+         {
+            "crc32": "665ca344",
+            "length": 2565014555,
+            "md5": "784b6e38c043febb7f78da3a8528b5a2",
+            "mtime": "1713721779",
+            "path": [
+               "DRÁCULA. ENG. MP4..mp4"
+            ],
+            "sha1": "b426614e4a39e8b1d258f9229e1e1ed998727742"
+         },
+         {
+            "attr": "p",
+            "length": 1899493,
+            "path": [
+               ".____padding_file",
+               "7"
+            ]
+         },
+         {
+            "crc32": "5cb49f45",
+            "length": 7856,
+            "md5": "7af6475e38f090985849ad0000c2606f",
+            "mtime": "1713724957",
+            "path": [
+               "__ia_thumb.jpg"
+            ],
+            "sha1": "dd9fbd3cd93783e758e35a90558d52008414ae0b"
+         },
+         {
+            "attr": "p",
+            "length": 2089296,
+            "path": [
+               ".____padding_file",
+               "5"
+            ]
+         },
+         {
+            "crc32": "ac53087b",
+            "length": 20480,
+            "md5": "62456c6f8aa437c861294ba3420384ed",
+            "mtime": "1713721850",
+            "path": [
+               "dra-cula.-eng.-mp-4._meta.sqlite"
+            ],
+            "sha1": "b7577dc7a3e898e2494e3344c45f8595bb5af71a"
+         },
+         {
+            "attr": "p",
+            "length": 2076672,
+            "path": [
+               ".____padding_file",
+               "1"
+            ]
+         },
+         {
+            "crc32": "08e9b412",
+            "length": 1127,
+            "md5": "9325617f20a888ff6a8548c718fb6c51",
+            "mtime": "1724093614",
+            "path": [
+               "dra-cula.-eng.-mp-4._meta.xml"
+            ],
+            "sha1": "b8034ece5362da2dda79498f979166e492b37b83"
+         },
+         {
+            "attr": "p",
+            "length": 2096025,
+            "path": [
+               ".____padding_file",
+               "8"
+            ]
+         }
+      ],
+      "name": "dra-cula.-eng.-mp-4.",
+      "piece length": 2097152,
+      "pieces": "<hex>CF 69 B2 ... 03 DD 3E</hex>"
+   },
+   "locale": "en",
+   "title": "dra-cula.-eng.-mp-4.",
+   "url-list": [
+      "https://archive.org/download/",
+      "http://ia600305.us.archive.org/6/items/",
+      "http://ia800305.us.archive.org/6/items/"
+   ]
+}
