@@ -109,7 +109,7 @@
       ],
       "name": "dra-cula.-eng.-mp-4.",
       "piece length": 2097152,
-      "pieces": "<hex>CF 69 B2 ... 03 DD 3E</hex>"
+      "pieces": "<hex>CF 69 B2 1D ... 03 DD 3E</hex>"
    },
    "locale": "en",
    "title": "dra-cula.-eng.-mp-4.",

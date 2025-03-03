@@ -1,0 +1,89 @@
+{
+   "announce-list": [
+      [
+         "http://p4p.arenabg.com:1337/announce"
+      ],
+      [
+         "udp://47.ip-51-68-199.eu:6969/announce"
+      ],
+      [
+         "udp://9.rarbg.me:2780/announce"
+      ],
+      [
+         "udp://9.rarbg.to:2710/announce"
+      ],
+      [
+         "udp://9.rarbg.to:2730/announce"
+      ],
+      [
+         "udp://9.rarbg.to:2920/announce"
+      ],
+      [
+         "udp://open.stealth.si:80/announce"
+      ],
+      [
+         "udp://opentracker.i2p.rocks:6969/announce"
+      ],
+      [
+         "udp://tracker.coppersurfer.tk:6969/announce"
+      ],
+      [
+         "udp://tracker.cyberia.is:6969/announce"
+      ],
+      [
+         "udp://tracker.dler.org:6969/announce"
+      ],
+      [
+         "udp://tracker.internetwarriors.net:1337/announce"
+      ],
+      [
+         "udp://tracker.leechers-paradise.org:6969/announce"
+      ],
+      [
+         "udp://tracker.openbittorrent.com:6969/announce"
+      ],
+      [
+         "udp://tracker.opentrackr.org:1337"
+      ],
+      [
+         "udp://tracker.pirateparty.gr:6969/announce"
+      ],
+      [
+         "udp://tracker.tiny-vps.com:6969/announce"
+      ],
+      [
+         "udp://tracker.torrent.eu.org:451/announce"
+      ]
+   ],
+   "info": {
+      "files": [
+         {
+            "length": 220721364,
+            "path": [
+               "Invincible.2021.S02E02.720p.WEB.x265-MiNX.mkv"
+            ]
+         },
+         {
+            "length": 71,
+            "path": [
+               "NEW upcoming releases by Xclusive.txt"
+            ]
+         },
+         {
+            "length": 718,
+            "path": [
+               "[TGx]Downloaded from torrentgalaxy.to .txt"
+            ]
+         },
+         {
+            "length": 43,
+            "path": [
+               "source.txt"
+            ]
+         }
+      ],
+      "name": "Invincible.2021.S02E02.720p.WEB.x265-MiNX[TGx]",
+      "piece length": 262144,
+      "pieces": "<hex>A7 7A 56 ... 97 EA C2</hex>"
+   }
+}

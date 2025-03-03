@@ -1,0 +1,151 @@
+{
+   "announce": "http://bt1.archive.org:6969/announce",
+   "announce-list": [
+      [
+         "http://bt1.archive.org:6969/announce"
+      ],
+      [
+         "http://bt2.archive.org:6969/announce"
+      ]
+   ],
+   "comment": "This content hosted at the Internet Archive at https://archive.org/details/PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB\nFiles may have changed, which prevents torrents from downloading correctly or completely; please check for an updated torrent at https://archive.org/download/PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB/PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_archive.torrent\nNote: retrieval usually requires a client that supports webseeding (GetRight style).\nNote: many Internet Archive torrents contain a 'pad file' directory. This directory and the files within it may be erased once retrieval completes.\nNote: the file PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_meta.xml contains metadata about this torrent's contents.",
+   "created by": "ia_make_torrent",
+   "creation date": 1715531561,
+   "info": {
+      "collections": [
+         "org.archive.PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB"
+      ],
+      "files": [
+         {
+            "crc32": "7881df81",
+            "length": 8003776,
+            "md5": "2b15c026e72f4a60ed12a7b625e55a24",
+            "mtime": "1369782811",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB.djvu"
+            ],
+            "sha1": "3ea00a5a85bc081b2959120ad78a1dd9fe57a843"
+         },
+         {
+            "crc32": "3e56870d",
+            "length": 255695,
+            "md5": "f4007d5698cb027b9ed5389973a0a387",
+            "mtime": "1369780255",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB.gif"
+            ],
+            "sha1": "5e275cd200b18e829b1a9111bafe07b207530e6c"
+         },
+         {
+            "crc32": "8963660b",
+            "length": 85329727,
+            "md5": "75eb8c9a274e6cfd696c0a1ad606ff82",
+            "mtime": "1369779765",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB.pdf"
+            ],
+            "sha1": "b42bac5acb19789aa8dc39004f19be5d2c7e2777"
+         },
+         {
+            "crc32": "f28edbba",
+            "length": 7713698,
+            "md5": "98347dac86d58c56586fe44fe3c46ce2",
+            "mtime": "1369782449",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_abbyy.gz"
+            ],
+            "sha1": "90224b587bc3687e447ac0d43cbe7cacfce4ad9c"
+         },
+         {
+            "crc32": "8b08aed5",
+            "length": 528647,
+            "md5": "02adb6094766812da378dac08e28bffc",
+            "mtime": "1369783169",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_djvu.txt"
+            ],
+            "sha1": "fe1699fcc5bc64f5da3f632ae4467784899f3e8f"
+         },
+         {
+            "crc32": "1ed31d4e",
+            "length": 4897486,
+            "md5": "952d96c6b2468b61292ca9122e5a0e58",
+            "mtime": "1369782561",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_djvu.xml"
+            ],
+            "sha1": "dba3ae2039b9d39e41a57775986718850f2b7d41"
+         },
+         {
+            "crc32": "cb900e97",
+            "length": 55791572,
+            "md5": "8e79a61457001c2a32e543899c2a644d",
+            "mtime": "1369780240",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_jp2.zip"
+            ],
+            "sha1": "74e0c9072499dbb92b27dc26a227e682c764c0a8"
+         },
+         {
+            "crc32": "64872596",
+            "length": 8192,
+            "md5": "a0626a19c30c79eb32d9ae57753a15dd",
+            "mtime": "1463419824",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_meta.sqlite"
+            ],
+            "sha1": "6e972bd7f7e8406349eea52ea4870a31113dd504"
+         },
+         {
+            "crc32": "781f2ff2",
+            "length": 1680,
+            "md5": "1b1bb11bb04c97daa975fe4ab58fa1df",
+            "mtime": "1715531560",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_meta.xml"
+            ],
+            "sha1": "470e64a5ccaeefb53ac6a24870ac0f9381cbc100"
+         },
+         {
+            "crc32": "82892e0a",
+            "length": 49949,
+            "md5": "329db2ea2ae8e8d62c95d16e89538cc8",
+            "mtime": "1456123591",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_scandata.xml"
+            ],
+            "sha1": "5e860ae29285882fc88f03978d954fd9a8297bc6"
+         },
+         {
+            "crc32": "50b35aca",
+            "length": 10856433,
+            "md5": "ece473c790071bfc2890aa3cd7d73810",
+            "mtime": "1369783086",
+            "path": [
+               "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB_text.pdf"
+            ],
+            "sha1": "63cfdb88d32a0a094984fc5253b4110ae4675c43"
+         },
+         {
+            "crc32": "f8b76e26",
+            "length": 25361,
+            "md5": "162b562a0f7b817d111229559e647eab",
+            "mtime": "1713733222",
+            "path": [
+               "__ia_thumb.jpg"
+            ],
+            "sha1": "d6729f26bd6ff9fe6452a2e6860412139a94ffa5"
+         }
+      ],
+      "name": "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB",
+      "piece length": 524288,
+      "pieces": "<hex>51 85 1D ... 6F 18 FE</hex>"
+   },
+   "locale": "en",
+   "title": "PC_Zone_Issue_055_1997-10_Dennis_Publishing_GB",
+   "url-list": [
+      "https://archive.org/download/",
+      "http://ia601902.us.archive.org/8/items/",
+      "http://ia801902.us.archive.org/8/items/"
+   ]
+}

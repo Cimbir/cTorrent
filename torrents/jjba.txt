@@ -1,0 +1,101 @@
+{
+   "announce": "http://bt1.archive.org:6969/announce",
+   "announce-list": [
+      [
+         "http://bt1.archive.org:6969/announce"
+      ],
+      [
+         "http://bt2.archive.org:6969/announce"
+      ]
+   ],
+   "comment": "This content hosted at the Internet Archive at https://archive.org/details/jjba93\nFiles may have changed, which prevents torrents from downloading correctly or completely; please check for an updated torrent at https://archive.org/download/jjba93/jjba93_archive.torrent\nNote: retrieval usually requires a client that supports webseeding (GetRight style).\nNote: many Internet Archive torrents contain a 'pad file' directory. This directory and the files within it may be erased once retrieval completes.\nNote: the file jjba93_meta.xml contains metadata about this torrent's contents.",
+   "created by": "ia_make_torrent",
+   "creation date": 1681634246,
+   "info": {
+      "collections": [
+         "org.archive.jjba93"
+      ],
+      "files": [
+         {
+            "crc32": "c3b3c98e",
+            "length": 29088,
+            "md5": "6513e3014555abb41dfe0c0e3be5bf6b",
+            "mtime": "1635383947",
+            "path": [
+               "220px-JoJo_DVD.jpg"
+            ],
+            "sha1": "8959a1d6dc9b1cf956c8819e3e70dc44379dbc98"
+         },
+         {
+            "crc32": "c684d386",
+            "length": 9904,
+            "md5": "76672d615f8a1a1538e26e5765927832",
+            "mtime": "1635433714",
+            "path": [
+               "220px-JoJo_DVD_thumb.jpg"
+            ],
+            "sha1": "df6fb4b8ae0bff78de47932641e228b5c627a6d1"
+         },
+         {
+            "crc32": "934b19a6",
+            "length": 949850706,
+            "md5": "7fe986f02da8a7f2ebdc327fece07079",
+            "mtime": "1635433669",
+            "path": [
+               "Jojo's Bizarre Adventure (1993).ia.mp4"
+            ],
+            "sha1": "cfe1e1a7eb8d361541243a21f78aca10d976d9b4"
+         },
+         {
+            "crc32": "4f667f87",
+            "length": 414520417,
+            "md5": "692bf76d80060c5774e82cf1ec96d7e8",
+            "mtime": "1635383923",
+            "path": [
+               "Jojo's Bizarre Adventure (1993).mp4"
+            ],
+            "sha1": "ce93c9f1453e85c5966d44558d8a9e40ab7cb5d5"
+         },
+         {
+            "crc32": "c11cdf18",
+            "length": 9988,
+            "md5": "95f2c76355f816d68d20dc88536b681e",
+            "mtime": "1635433820",
+            "path": [
+               "__ia_thumb.jpg"
+            ],
+            "sha1": "2fdb8cf117a7aee59bf0e5c3c0d22824b9ca4c4d"
+         },
+         {
+            "crc32": "9dc97295",
+            "length": 28672,
+            "md5": "e23b22be8e5878510ce401445b050c35",
+            "mtime": "1635383981",
+            "path": [
+               "jjba93_meta.sqlite"
+            ],
+            "sha1": "1c5da7e75fc1e5ec3ffced35a547ef9bbc6bd99f"
+         },
+         {
+            "crc32": "21c70460",
+            "length": 4813,
+            "md5": "0b75fb649b02cb42ca10a63d91971a60",
+            "mtime": "1681634245",
+            "path": [
+               "jjba93_meta.xml"
+            ],
+            "sha1": "aaeba15b2b9f516585d05e306e4b3f0e129c06ec"
+         }
+      ],
+      "name": "jjba93",
+      "piece length": 1048576,
+      "pieces": "<hex>19 F3 96 ... 8B 60 A6</hex>"
+   },
+   "locale": "en",
+   "title": "jjba93",
+   "url-list": [
+      "https://archive.org/download/",
+      "http://ia902302.us.archive.org/9/items/",
+      "/9/items/"
+   ]
+}

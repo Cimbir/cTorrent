@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
-	"time"
 
 	"cTorrent/models"
 
@@ -16,8 +15,22 @@ type TrackerResponse struct {
 	Peers    string `bencode:"peers"`
 }
 
-func BuildTrackerURL(t *models.Torrent, peerID [20]byte, port uint16) (string, error) {
-	announceURL, err := url.Parse(t.Announce)
+func GeneratePeerID() ([20]byte, error) {
+	var peerID [20]byte
+	copy(peerID[:], "-UT0001-123456789012")
+	return peerID, nil
+}
+
+// 	copy(peerID[:], []byte("-CT0001-"))
+// 	_, err := rand.Read(peerID[8:])
+// 	if err != nil {
+// 		return [20]byte{}, err
+// 	}
+// 	return peerID, nil
+// }
+
+func BuildTrackerURL(t *models.Torrent, peerID [20]byte, port uint16, announce_index int) (string, error) {
+	announceURL, err := url.Parse(t.AnnounceList[announce_index])
 	if err != nil {
 		return "", err
 	}
@@ -36,14 +49,14 @@ func BuildTrackerURL(t *models.Torrent, peerID [20]byte, port uint16) (string, e
 	return announceURL.String(), nil
 }
 
-func GetTrackerResponse(t *models.Torrent, peerID [20]byte, port uint16) (TrackerResponse, error) {
-	url, err := BuildTrackerURL(t, peerID, port)
+func GetTrackerResponse(t *models.Torrent, peerID [20]byte, port uint16, announce_index int) (TrackerResponse, error) {
+	url, err := BuildTrackerURL(t, peerID, port, announce_index)
 	if err != nil {
 		fmt.Println("Error building tracker URL:", err)
 		return TrackerResponse{}, err
 	}
 
-	client := &http.Client{Timeout: 15 * time.Second}
+	client := &http.Client{}
 	resp, err := client.Get(url)
 	if err != nil {
 		fmt.Println("Error contacting tracker:", err)

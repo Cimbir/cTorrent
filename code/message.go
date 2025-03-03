@@ -2,6 +2,7 @@ package code
 
 import (
 	"encoding/binary"
+	"fmt"
 	"io"
 )
 
@@ -57,4 +58,58 @@ func ReadMessage(r io.Reader) (*Message, error) {
 		Payload: messageBuf[1:],
 	}
 	return &message, nil
+}
+
+func GetHavePayload(index int) []byte {
+	payload := make([]byte, 4)
+	binary.BigEndian.PutUint32(payload, uint32(index))
+	return payload
+}
+
+func ParseHavePayload(message Message) (int, error) {
+	if message.ID != MHave {
+		return 0, fmt.Errorf("Expected have message, got %d", message.ID)
+	}
+	if len(message.Payload) != 4 {
+		return 0, fmt.Errorf("Have message has wrong length")
+	}
+	index := int(binary.BigEndian.Uint32(message.Payload))
+	return index, nil
+}
+
+func GetRequestPayload(index, begin, length int) []byte {
+	payload := make([]byte, 12)
+	binary.BigEndian.PutUint32(payload, uint32(index))
+	binary.BigEndian.PutUint32(payload[4:], uint32(begin))
+	binary.BigEndian.PutUint32(payload[8:], uint32(length))
+	return payload
+}
+
+func ParsePiecePayload(index int, buf []byte, message Message) (int, error) {
+	if message.ID != MPiece {
+		return 0, fmt.Errorf("Expected request message, got %d", message.ID)
+	}
+
+	if len(message.Payload) < 8 {
+		return 0, fmt.Errorf("Request message has wrong length")
+	}
+
+	gotIndex := int(binary.BigEndian.Uint32(message.Payload[0:4]))
+	begin := int(binary.BigEndian.Uint32(message.Payload[4:8]))
+	block := message.Payload[8:]
+
+	if gotIndex != index {
+		return 0, fmt.Errorf("Expected index %d, got %d", index, gotIndex)
+	}
+
+	if begin > len(buf) {
+		return 0, fmt.Errorf("Begin offset %d is out of bounds", begin)
+	}
+
+	if begin+len(block) > len(buf) {
+		return 0, fmt.Errorf("Block is too large")
+	}
+
+	copy(buf[begin:], block)
+	return len(block), nil
 }

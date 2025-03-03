@@ -9,14 +9,14 @@ import (
 )
 
 type Torrent struct {
-	Announce    string
-	InfoHash    [20]byte
-	PieceHashes [][20]byte
-	PieceLength int
-	Length      int64
-	Name        string
-	Files       []TFile
-	Original    interface{}
+	AnnounceList []string
+	InfoHash     [20]byte
+	PieceHashes  [][20]byte
+	PieceLength  int
+	Length       int64
+	Name         string
+	Files        []TFile
+	Original     interface{}
 }
 
 type TFile struct {
@@ -41,7 +41,7 @@ func (i *BInfo) SplitPieceHashes() ([][20]byte, error) {
 	hashLen := 20 // Length of SHA-1 hash
 	buf := []byte(i.Pieces)
 	if len(buf)%hashLen != 0 {
-		err := fmt.Errorf("Received malformed pieces of length %d", len(buf))
+		err := fmt.Errorf("received malformed pieces of length %d", len(buf))
 		return nil, err
 	}
 	numHashes := len(buf) / hashLen
@@ -65,13 +65,22 @@ func (bto *BTorrent) ToTorrentFile() (Torrent, error) {
 	}
 
 	res := Torrent{
-		Announce:    bto.Announce,
-		InfoHash:    infoHash,
-		PieceHashes: pieceHashes,
-		PieceLength: bto.Info.PieceLength,
-		Length:      0,
-		Name:        bto.Info.Name,
-		Original:    bto.Original,
+		AnnounceList: []string{},
+		InfoHash:     infoHash,
+		PieceHashes:  pieceHashes,
+		PieceLength:  bto.Info.PieceLength,
+		Length:       0,
+		Name:         bto.Info.Name,
+		Original:     bto.Original,
+	}
+
+	if bto.Announce != "" {
+		res.AnnounceList = append(res.AnnounceList, bto.Announce)
+	}
+	if bto.AnnounceList != nil {
+		for _, announce := range bto.AnnounceList {
+			res.AnnounceList = append(res.AnnounceList, announce...)
+		}
 	}
 
 	offset := int64(0)

@@ -1,0 +1,91 @@
+{
+   "announce": "http://bt1.archive.org:6969/announce",
+   "announce-list": [
+      [
+         "http://bt1.archive.org:6969/announce"
+      ],
+      [
+         "http://bt2.archive.org:6969/announce"
+      ]
+   ],
+   "comment": "This content hosted at the Internet Archive at https://archive.org/details/TheGolem_893\nFiles may have changed, which prevents torrents from downloading correctly or completely; please check for an updated torrent at https://archive.org/download/TheGolem_893/TheGolem_893_archive.torrent\nNote: retrieval usually requires a client that supports webseeding (GetRight style).\nNote: many Internet Archive torrents contain a 'pad file' directory. This directory and the files within it may be erased once retrieval completes.\nNote: the file TheGolem_893_meta.xml contains metadata about this torrent's contents.",
+   "created by": "ia_make_torrent",
+   "creation date": 1718381936,
+   "info": {
+      "collections": [
+         "org.archive.TheGolem_893"
+      ],
+      "files": [
+         {
+            "crc32": "16836e8e",
+            "length": 675235908,
+            "md5": "d6888f4e131f446103adbf3276afe035",
+            "mtime": "1241273677",
+            "path": [
+               "TheGolem.divx"
+            ],
+            "sha1": "a947ae23aea2ca84fa7a5c2432e9f8a5be13bd48"
+         },
+         {
+            "crc32": "d6380916",
+            "length": 359680,
+            "md5": "085a61852dfe91fa876874c06d3d46ab",
+            "mtime": "1241274770",
+            "path": [
+               "TheGolem.gif"
+            ],
+            "sha1": "a19a3e3395e0dd2ec3067cd0f9ac8bc850be0319"
+         },
+         {
+            "crc32": "929f455f",
+            "length": 510699324,
+            "md5": "eae53b531dce7b4a5f568d319c4f3ba2",
+            "mtime": "1241284358",
+            "path": [
+               "TheGolem.ogv"
+            ],
+            "sha1": "35e54916e8edad9d0926c76e7435e4d20e0ef59a"
+         },
+         {
+            "crc32": "22b934f8",
+            "length": 441886671,
+            "md5": "54c6eab5608ee5b3b10ad2b70aa92bef",
+            "mtime": "1241280880",
+            "path": [
+               "TheGolem_512kb.mp4"
+            ],
+            "sha1": "75338d20912e24c9835f10dc32b988fdc1215756"
+         },
+         {
+            "crc32": "54a73d2d",
+            "length": 1180,
+            "md5": "fc368a7b2f513d38ac0fa501ab92e683",
+            "mtime": "1718078148",
+            "path": [
+               "TheGolem_893_meta.xml"
+            ],
+            "sha1": "54a64fe824774a7522db5b51ed9f87f6ed199bb7"
+         },
+         {
+            "crc32": "0d500a64",
+            "length": 6416,
+            "md5": "ce9543bfc91903aea2903a2648d8a573",
+            "mtime": "1623097981",
+            "path": [
+               "__ia_thumb.jpg"
+            ],
+            "sha1": "dc4bc8678229f682d246f266b5132c4278f31c42"
+         }
+      ],
+      "name": "TheGolem_893",
+      "piece length": 1048576,
+      "pieces": "<hex>7B 65 DC ... EB EE 1C</hex>"
+   },
+   "locale": "en",
+   "title": "TheGolem_893",
+   "url-list": [
+      "https://archive.org/download/",
+      "http://ia904505.us.archive.org/28/items/",
+      "http://ia804505.us.archive.org/28/items/"
+   ]
+}
